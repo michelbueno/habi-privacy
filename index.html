@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Habi — Política de Privacidade</title>
+  <style>
+    :root {
+      --accent: #6750A4;
+      --bg: #FAFAFA;
+      --card: #FFFFFF;
+      --text: #1C1B1F;
+      --muted: #49454F;
+      --border: #E7E0EC;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 48px 24px 32px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 6px; opacity: 0.85; font-size: 0.95rem; }
+
+    .lang-nav {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 20px 24px;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .lang-nav button {
+      padding: 6px 18px;
+      border: 2px solid var(--accent);
+      border-radius: 20px;
+      background: transparent;
+      color: var(--accent);
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .lang-nav button.active,
+    .lang-nav button:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .content {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    h2:first-child { margin-top: 0; }
+
+    p { margin-bottom: 12px; color: var(--muted); }
+
+    .highlight {
+      background: #EAD8FF;
+      border-left: 4px solid var(--accent);
+      border-radius: 4px;
+      padding: 14px 18px;
+      margin: 20px 0;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Habi</h1>
+  <p id="header-subtitle">Política de Privacidade</p>
+</header>
+
+<nav class="lang-nav">
+  <button class="active" onclick="setLang('pt')">Português</button>
+  <button onclick="setLang('en')">English</button>
+  <button onclick="setLang('es')">Español</button>
+</nav>
+
+<main class="content">
+
+  <!-- ===== PORTUGUÊS ===== -->
+  <section class="lang-section active" id="lang-pt">
+
+    <h2>Introdução</h2>
+    <p>Bem-vindo ao <strong>Habi</strong>. Esta política de privacidade descreve como o aplicativo trata as suas informações. Levamos a sua privacidade a sério e construímos o Habi com esse compromisso desde o início.</p>
+
+    <div class="highlight">
+      O Habi não coleta, armazena nem transmite nenhum dado pessoal para servidores externos. Todas as informações ficam exclusivamente no seu dispositivo.
+    </div>
+
+    <h2>Dados que o app armazena</h2>
+    <p>O Habi salva localmente no seu dispositivo apenas os dados que você cria dentro do app:</p>
+    <p>• Nomes e configurações dos seus hábitos (frequência, dias da semana).</p>
+    <p>• Registros de conclusão de cada hábito por data.</p>
+    <p>Esses dados são armazenados em um banco de dados local (SQLite) e nunca saem do seu dispositivo.</p>
+
+    <h2>Dados que não coletamos</h2>
+    <p>O Habi <strong>não</strong> coleta, acessa nem compartilha:</p>
+    <p>• Nome, e-mail, telefone ou qualquer dado de identificação pessoal.</p>
+    <p>• Localização geográfica.</p>
+    <p>• Dados de saúde ou biométricos.</p>
+    <p>• Informações de uso, analytics ou relatórios de falha enviados a terceiros.</p>
+    <p>• Cookies ou identificadores de rastreamento.</p>
+
+    <h2>Permissões do sistema</h2>
+    <p>O Habi não solicita nenhuma permissão especial do sistema operacional. Não há acesso à câmera, microfone, contatos, localização ou arquivos do dispositivo.</p>
+
+    <h2>Serviços de terceiros</h2>
+    <p>O Habi não integra SDKs de terceiros para análise de dados, publicidade ou monitoramento de comportamento.</p>
+
+    <h2>Crianças</h2>
+    <p>O Habi não coleta dados de nenhum usuário, incluindo crianças menores de 13 anos. O app é seguro para uso por qualquer faixa etária.</p>
+
+    <h2>Exclusão de dados</h2>
+    <p>Como todos os dados ficam no seu dispositivo, você pode removê-los a qualquer momento desinstalando o aplicativo. A desinstalação apaga permanentemente todos os hábitos e registros salvos.</p>
+
+    <h2>Alterações nesta política</h2>
+    <p>Caso esta política seja atualizada, a nova versão será publicada nesta página com a data de revisão. Recomendamos verificá-la periodicamente.</p>
+
+    <h2>Contato</h2>
+    <p>Dúvidas ou sugestões sobre privacidade? Entre em contato pelo e-mail: <strong>michelbueno@icloud.com</strong></p>
+
+    <p style="margin-top: 32px; font-size: 0.85rem; color: #888;">Última atualização: março de 2026</p>
+  </section>
+
+  <!-- ===== ENGLISH ===== -->
+  <section class="lang-section" id="lang-en">
+
+    <h2>Introduction</h2>
+    <p>Welcome to <strong>Habi</strong>. This privacy policy explains how the app handles your information. We take your privacy seriously and built Habi with that commitment from day one.</p>
+
+    <div class="highlight">
+      Habi does not collect, store, or transmit any personal data to external servers. All information stays exclusively on your device.
+    </div>
+
+    <h2>Data the app stores</h2>
+    <p>Habi saves locally on your device only the data you create within the app:</p>
+    <p>• Names and settings of your habits (frequency, days of the week).</p>
+    <p>• Completion records for each habit by date.</p>
+    <p>This data is stored in a local database (SQLite) and never leaves your device.</p>
+
+    <h2>Data we do not collect</h2>
+    <p>Habi does <strong>not</strong> collect, access, or share:</p>
+    <p>• Name, email, phone number, or any personally identifiable information.</p>
+    <p>• Geographic location.</p>
+    <p>• Health or biometric data.</p>
+    <p>• Usage analytics or crash reports sent to third parties.</p>
+    <p>• Cookies or tracking identifiers.</p>
+
+    <h2>System permissions</h2>
+    <p>Habi does not request any special system permissions. There is no access to the camera, microphone, contacts, location, or device files.</p>
+
+    <h2>Third-party services</h2>
+    <p>Habi does not integrate any third-party SDKs for analytics, advertising, or behavior monitoring.</p>
+
+    <h2>Children</h2>
+    <p>Habi does not collect data from any user, including children under the age of 13. The app is safe for use by any age group.</p>
+
+    <h2>Data deletion</h2>
+    <p>Since all data is stored on your device, you can remove it at any time by uninstalling the app. Uninstalling permanently deletes all saved habits and records.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy is updated, the new version will be published on this page with the revision date. We recommend checking it periodically.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or suggestions about privacy? Contact us at: <strong>michelbueno@icloud.com</strong></p>
+
+    <p style="margin-top: 32px; font-size: 0.85rem; color: #888;">Last updated: March 2026</p>
+  </section>
+
+  <!-- ===== ESPAÑOL ===== -->
+  <section class="lang-section" id="lang-es">
+
+    <h2>Introducción</h2>
+    <p>Bienvenido a <strong>Habi</strong>. Esta política de privacidad describe cómo la aplicación gestiona tu información. Nos tomamos tu privacidad en serio y construimos Habi con ese compromiso desde el principio.</p>
+
+    <div class="highlight">
+      Habi no recopila, almacena ni transmite ningún dato personal a servidores externos. Toda la información permanece exclusivamente en tu dispositivo.
+    </div>
+
+    <h2>Datos que la app almacena</h2>
+    <p>Habi guarda localmente en tu dispositivo únicamente los datos que tú creas dentro de la app:</p>
+    <p>• Nombres y configuraciones de tus hábitos (frecuencia, días de la semana).</p>
+    <p>• Registros de finalización de cada hábito por fecha.</p>
+    <p>Estos datos se almacenan en una base de datos local (SQLite) y nunca salen de tu dispositivo.</p>
+
+    <h2>Datos que no recopilamos</h2>
+    <p>Habi <strong>no</strong> recopila, accede ni comparte:</p>
+    <p>• Nombre, correo electrónico, teléfono ni ningún dato de identificación personal.</p>
+    <p>• Ubicación geográfica.</p>
+    <p>• Datos de salud o biométricos.</p>
+    <p>• Análisis de uso ni informes de fallos enviados a terceros.</p>
+    <p>• Cookies o identificadores de seguimiento.</p>
+
+    <h2>Permisos del sistema</h2>
+    <p>Habi no solicita ningún permiso especial del sistema operativo. No hay acceso a la cámara, micrófono, contactos, ubicación ni archivos del dispositivo.</p>
+
+    <h2>Servicios de terceros</h2>
+    <p>Habi no integra SDKs de terceros para análisis de datos, publicidad ni monitoreo de comportamiento.</p>
+
+    <h2>Menores de edad</h2>
+    <p>Habi no recopila datos de ningún usuario, incluidos los menores de 13 años. La app es segura para cualquier grupo de edad.</p>
+
+    <h2>Eliminación de datos</h2>
+    <p>Como todos los datos se almacenan en tu dispositivo, puedes eliminarlos en cualquier momento desinstalando la aplicación. La desinstalación borra permanentemente todos los hábitos y registros guardados.</p>
+
+    <h2>Cambios en esta política</h2>
+    <p>Si esta política se actualiza, la nueva versión se publicará en esta página con la fecha de revisión. Recomendamos consultarla periódicamente.</p>
+
+    <h2>Contacto</h2>
+    <p>¿Preguntas o sugerencias sobre privacidad? Contáctanos en: <strong>michelbueno@icloud.com</strong></p>
+
+    <p style="margin-top: 32px; font-size: 0.85rem; color: #888;">Última actualización: marzo de 2026</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Habi · <span id="footer-app">com.michelbueno.habi</span></p>
+</footer>
+
+<script>
+  const subtitles = { pt: 'Política de Privacidade', en: 'Privacy Policy', es: 'Política de Privacidad' };
+
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.lang-nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.querySelector(`.lang-nav button[onclick="setLang('${lang}')"]`).classList.add('active');
+    document.getElementById('header-subtitle').textContent = subtitles[lang];
+    document.documentElement.lang = lang === 'pt' ? 'pt-BR' : lang;
+  }
+
+  // Auto-detect browser language
+  const browserLang = navigator.language.slice(0, 2);
+  if (['en', 'es'].includes(browserLang)) setLang(browserLang);
+</script>
+
+</body>
+</html>
