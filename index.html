@@ -18,6 +18,8 @@
             --border:        #C8D8CC;
             --highlight-bg:  #D8F3DC;
             --highlight-border: #2D6A4F;
+            --header-bg:     #2D6A4F;
+            --header-text:   #FFFFFF;
         }
 
         @media (prefers-color-scheme: dark) {
@@ -25,6 +27,8 @@
                 --accent:        #88D4AE;
                 --accent-light:  #1B5139;
                 --accent-dark:   #003822;
+                --header-bg:     #111714;
+                --header-text:   #88D4AE;
                 --secondary:     #FFB84D;
                 --bg:            #111714;
                 --card:          #151D19;
@@ -51,8 +55,8 @@
         }
 
         header {
-            background: var(--accent);
-            color: #fff;
+            background: var(--header-bg);
+            color: var(--header-text);
             padding: 52px 24px 36px;
             text-align: center;
         }
@@ -71,6 +75,7 @@
 
         header p {
             margin-top: 6px;
+            color: var(--header-text);
             opacity: 0.85;
             font-size: 0.95rem;
         }
